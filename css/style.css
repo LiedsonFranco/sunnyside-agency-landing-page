@@ -1,0 +1,93 @@
+p,a{
+    font-size: 18px;
+}
+nav{
+    background-image: url(../images/desktop/image-header.jpg);
+    background-color: #3EBFFF;
+    background-repeat: no-repeat;
+    background-position:  50% 100%;
+    background-size: contain;
+    min-height: 600px;
+}
+.bg{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.bg-transform{
+    background-image: url(../images/desktop/image-transform.jpg);
+}
+.bg-stand{
+    background-image: url(../images/desktop/image-stand-out.jpg);
+}
+.bg-graphic{
+    background-image: url(../images/desktop/image-graphic-design.jpg);
+}
+.bg-photography{
+    background-image: url(../images/desktop/image-photography.jpg);
+}
+.bg-milkbottles{
+    background-image: url(../images/desktop/image-gallery-milkbottles.jpg);
+}
+.bg-orange{
+    background-image: url(../images/desktop/image-gallery-orange.jpg);
+}
+.bg-cone{
+    background-image: url(../images/desktop/image-gallery-cone.jpg);
+}
+.bg-sugarcubes{
+    background-image: url(../images/desktop/image-gallery-sugarcubes.jpg);
+}
+
+@media (max-width: 768px) {
+    .menu{    
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 100px;
+        background-color: white;
+        padding: 20px;
+        z-index: 20;
+        width: 85%;
+
+    }
+    nav{
+        background-image: url(../images/mobile/image-header.jpg);
+        background-color: #3EBFFF;
+        background-repeat: no-repeat;
+        background-position:  50% 100%;
+        background-size: cover;
+        min-height: 100vh;
+    }
+    .bg{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50%;
+    }
+    
+    .bg-transform{
+        background-image: url(../images/desktop/image-transform.jpg);
+    }
+    .bg-stand{
+        background-image: url(../images/desktop/image-stand-out.jpg);
+    }
+    .bg-graphic{
+        background-image: url(../images/desktop/image-graphic-design.jpg);
+    }
+    .bg-photography{
+        background-image: url(../images/desktop/image-photography.jpg);
+    }
+    .bg-milkbottles{
+        background-image: url(../images/desktop/image-gallery-milkbottles.jpg);
+    }
+    .bg-orange{
+        background-image: url(../images/desktop/image-gallery-orange.jpg);
+    }
+    .bg-cone{
+        background-image: url(../images/desktop/image-gallery-cone.jpg);
+    }
+    .bg-sugarcubes{
+        background-image: url(../images/desktop/image-gallery-sugarcubes.jpg);
+    }
+}
